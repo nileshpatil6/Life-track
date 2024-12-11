@@ -1,13 +1,20 @@
 {
-  "name": "message-system",
+  "name": "life-track-server",
   "version": "1.0.0",
+  "description": "Node.js server for sending and receiving messages with Supabase",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
-    "body-parser": "^1.20.2"
-  }
+    "@supabase/supabase-js": "^2.4.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC"
 }
